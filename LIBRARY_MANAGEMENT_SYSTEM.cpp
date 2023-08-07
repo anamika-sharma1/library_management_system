@@ -47,12 +47,7 @@ void conversion(int pk);
 void finelist();
 void display_rules();
 
-/*void espeaker(string s)
-{
-  string command="espeak \""+s+"\"";
-  const char* charCommand=command.c_str();
-  system(charCommand);
-}*/
+
 
 void conversion(int pk)
 {
@@ -60,12 +55,6 @@ void conversion(int pk)
 	ss<<pk;
 	string s=ss.str();
 	//espeaker(s);
-}
-
-void delay(unsigned int ms)
-{
-    clock_t timedelay = ms + clock();
-    while (timedelay > clock());
 }
 
 class book
@@ -203,7 +192,7 @@ int main()
         case 0:exit(0);
         default:{cout<<"\n\t\t\t\t\t\t\t\t\t\tINVALID CHOICE\n\t\t\t\t\t\t\t\t\t\t       ";
 //                 if(j==49){espeaker("INVALID CHOICE");}
-                 _beep(900,2000);
+                 //_beep(900,2000);
                  cout<<"\n\n\t\t\t\t\t\t\t\t\t***PRESS ENTER TO CONTINUE***\n\t\t\t\t\t\t\t\t\t\t       ";
                  //if(j==49){espeaker("PRESS ENTER TO CONTINUE");}
                  getch();
