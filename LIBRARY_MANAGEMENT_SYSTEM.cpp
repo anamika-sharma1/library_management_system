@@ -631,7 +631,7 @@ void view_issued_books()
     }
     case 2:{system("cls");
             Date d;char slash;
-            cout<<"\n\n\n\n\t\t\t\t\t\t\t\t\t  ***SORTED ISSUED BOOKS BY DATE***\n\n";
+            cout<<"\n\n\n\n\t\t\t\t\t\t\t\t\t  ***FIND ISSUED BOOKS BY DATE***\n\n";
             cout<<"\t\t\t\t\t\t\t\t\tENTER DATE : ";
             //if(j==49){espeaker("ENTER DATE");}
             cin>>d.dd>>slash>>d.mm>>slash>>d.yy;
